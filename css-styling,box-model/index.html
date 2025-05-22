@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Styling, Box Model, and Basic Layout</title>
+    <!-- internal / embedded CSS -->
+    <style>
+        /* tag selactor  */
+        p {
+            color: #2828ac;
+            background-color: bisque;
+            width: 500px;
+            height: 100px;
+        }
+
+        /* id selactor */
+        #stylesheets {
+            background-color: #f0f0f0;
+            color: #3ddf15b6;
+        }
+
+        /* class selactor */
+        .blue {
+            color: palevioletred;
+            background-color: #e2d4d4;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+        span{
+            color: aquamarine;
+        }
+        .underline span {
+            color: #f0f0f0;
+            background-color: #3ddf15b6;
+        }
+        h2 , h1 {
+            color: #d3e202;
+            background-color: #e2ffdbb6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- inline CSS  -->
+    <h1 style="color: yellow; background-color: aquamarine;">We will learn CSS Today</h1>
+    <p>CSS describes how HTML <span>elements are to be displayed </span>on screen, paper, or in other media</p>
+    <p class="blue underline">CSS <span>stands for Cascading Style </span>Sheets</p>
+    <p id="stylesheets">External stylesheets are stored in CSS files</p>
+
+    <h2>What we will learn today </h2>
+    <h1>What we will learn today </h1>
+    <ul>
+        <li>CSS Syntax</li>
+        <li>CSS Selectors</li>
+        <li>CSS Box Model</li>
+        <li>CSS Layout</li>
+    </ul>
+
+</body>
+
+</html>
