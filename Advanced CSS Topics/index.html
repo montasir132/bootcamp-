@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Topics </title>
+    <style>
+        h1:hover {
+            color: red;
+            font-size: 2em;
+            text-decoration: underline;
+        }
+        #text {
+            width: 300px;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        #text:focus {
+            border-color: blue;
+            box-shadow: 0 0 5px blue;
+        }
+        #text:hover {
+            background-color: lightgray;
+        }
+        #text::placeholder {
+            color: gray;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>i am a pogramar </h1>
+    <input type="text" name="text" id="text">
+</body>
+</html>

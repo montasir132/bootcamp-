@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sempol Animason</title>
+</head>
+<style>
+    /* .container{
+        width: 200px;
+        height: 200px;
+        margin: 100px;
+        background-color: lightblue;
+        transition: 1.5s ;
+    }
+    .container:hover {
+        transform: translateX(400px);
+        border-radius: 50%;
+
+        } */
+    img {
+        position: relative;
+        animation: identifier1 1s infinite;
+        animation-timing-function: linear;
+        margin: 100px;/*
+         transition: 2s;*/
+    } 
+    /* img:hover{
+        transform: rotate(360deg) scale(1.5) ;
+      
+        
+    } */
+     @keyframes identifier1 {
+        from {
+            transform: rotate(0deg) scale(1);
+        }
+        to {
+            transform: rotate(360deg) scale(1);
+        }
+        
+     }
+</style>
+<body>
+    <div class="container"></div>
+    <img src="image/download.jpg" alt="">
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <style>
+        h1::before {
+            content: "Reading: ";
+            color: blue;
+            font-weight: bold;
+        }
+
+        h1::after {
+            content: " - Enjoy!";
+            color: green;
+            font-style: italic;
+        }
+
+        
+        h1:intro::first-letter{
+            font-size: 2em;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>i am reding</h1>
+</body>
+</html>
